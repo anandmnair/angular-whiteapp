@@ -22,6 +22,9 @@ script:
 - ng test
 - ng build --prod --base-href https://anandmnair.github.io/angular-whiteapp/
 
+after_success:
+- cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
+
 deploy:
   provider: pages
   skip-cleanup: true
