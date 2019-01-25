@@ -1,6 +1,17 @@
 {
   "name": "angular-whiteapp",
   "version": "0.0.0",
+  "description": "A sample angular whiteapp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anandmnair/angular-whiteapp.git"
+  },
+  "author": "Anand Manissery",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anandmnair/angular-whiteapp/issues"
+  },
+  "homepage": "https://anandmnair.github.io/angular-whiteapp",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
