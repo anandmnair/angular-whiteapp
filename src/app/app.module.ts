@@ -7,6 +7,7 @@ import {NavModule} from './shared/components/nav/nav.module';
 import {HomeModule} from './routes/home/home.module';
 import {DashboardModule} from './routes/dashboard/dashboard.module';
 import {HttpClientModule} from '@angular/common/http';
+import {LoggerModule, NgxLoggerLevel} from 'ngx-logger';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import {HttpClientModule} from '@angular/common/http';
     NavModule,
     HomeModule,
     DashboardModule,
-    HttpClientModule
+    HttpClientModule,
+    LoggerModule.forRoot({level: NgxLoggerLevel.INFO })
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,6 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {HomeService} from './home.service';
 import {Post} from './post';
+import {NGXLogger} from 'ngx-logger';
 
 
 @Component({
@@ -12,7 +13,7 @@ export class HomeComponent implements OnInit {
 
   posts: Post[];
 
-  constructor(private homeService: HomeService) {
+  constructor(private homeService: HomeService, private log: NGXLogger) {
   }
 
   ngOnInit() {
@@ -20,7 +21,7 @@ export class HomeComponent implements OnInit {
       (res) => {
         this.posts = res;
       }, (err) => {
-        console.log(err);
+        this.log.error(err);
       }
     );
   }

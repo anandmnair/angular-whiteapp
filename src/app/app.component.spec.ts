@@ -4,6 +4,7 @@ import { AppComponent } from './app.component';
 import {HomeModule} from './routes/home/home.module';
 import {NavModule} from './shared/components/nav/nav.module';
 import {DashboardModule} from './routes/dashboard/dashboard.module';
+import {LoggerTestingModule} from 'ngx-logger';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
@@ -12,7 +13,8 @@ describe('AppComponent', () => {
         RouterTestingModule,
         NavModule,
         HomeModule,
-        DashboardModule
+        DashboardModule,
+        LoggerTestingModule
       ],
       declarations: [
         AppComponent
