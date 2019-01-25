@@ -1,5 +1,8 @@
 # AngularWhiteapp
 
+[![Build Status](https://travis-ci.org/anandmnair/angular-whiteapp.svg?branch=master)](https://travis-ci.org/anandmnair/angular-whiteapp)  [![Coverage Status](https://coveralls.io/repos/github/anandmnair/angular-whiteapp/badge.svg?branch=master)](https://coveralls.io/github/anandmnair/angular-whiteapp?branch=master)
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.3.
 
 ## Development server
