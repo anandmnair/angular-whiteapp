@@ -1,6 +1,6 @@
 # AngularWhiteapp
 
-[![Build Status](https://travis-ci.org/anandmnair/angular-whiteapp.svg?branch=master)](https://travis-ci.org/anandmnair/angular-whiteapp)  [![Coverage Status](https://coveralls.io/repos/github/anandmnair/angular-whiteapp/badge.svg?branch=master)](https://coveralls.io/github/anandmnair/angular-whiteapp?branch=master)
+[![Build Status](https://travis-ci.org/anandmnair/angular-whiteapp.svg?branch=master)](https://travis-ci.org/anandmnair/angular-whiteapp)  [![Coverage Status](https://coveralls.io/repos/github/anandmnair/angular-whiteapp/badge.svg?branch=master)](https://coveralls.io/github/anandmnair/angular-whiteapp?branch=master)  [![Codacy Badge](https://api.codacy.com/project/badge/Grade/2f03a85b40844168988bae36c2559755)](https://www.codacy.com/app/anandmnair/angular-whiteapp?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=anandmnair/angular-whiteapp&amp;utm_campaign=Badge_Grade)
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.3.
