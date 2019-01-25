@@ -20,3 +20,12 @@ cache:
 script:
 - npm run lint
 - ng test
+- ng build --prod --base-href https://anandmnair.github.io/angular-whiteapp/
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  local-dir: ./dist/
+  on:
